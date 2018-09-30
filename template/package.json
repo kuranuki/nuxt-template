@@ -1,8 +1,8 @@
 {
-  "name": "nuxtodo2",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "Todo apps on Nuxt.js",
-  "author": "kuranuki",
+  "description": "{{ description }}",
+  "author": "{{ author }}",
   "private": true,
   "scripts": {
     "dev": "nuxt",
