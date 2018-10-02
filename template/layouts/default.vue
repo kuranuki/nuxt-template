@@ -62,7 +62,7 @@ export default {
       miniVariant: false,
       right: true,
       rightDrawer: false,
-      title: 'Nuxt2サンプル'
+      title: '{{ name }}'
     }
   }
 }
