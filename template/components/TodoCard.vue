@@ -3,7 +3,6 @@
        @drop="onDrop" @dragstart="onDragStart" @dragover.prevent>
     <v-card class="card">
       <v-card-title primary-title>
-        {{ card.body }}
         <v-layout align-center justify-end row fill-height>
           <v-btn flat icon depressed @click="deleteCard">
             <v-icon small color="grey">delete</v-icon>

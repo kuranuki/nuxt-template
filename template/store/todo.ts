@@ -25,12 +25,8 @@ export const mutations = {}
 export const actions = {
   init: firebaseAction(({ bindFirebaseRef }) => {
     bindFirebaseRef('todoLists', todoListsRef.orderBy('timestamp'))
-      .then(() => {
-        console.log('success binded')
-      })
-      .catch(err => {
-        console.log(err)
-      })
+      .then(() => console.log('success binded'))
+      .catch(err => console.log(err))
   }),
   add_list: firebaseAction((context, title) => {
     return new Promise((resolve, reject) => {

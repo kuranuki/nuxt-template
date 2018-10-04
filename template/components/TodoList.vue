@@ -3,9 +3,6 @@
     <v-btn class="close-button" flat icon depressed small @click="remove_list(listId)">
       <v-icon small>delete</v-icon>
     </v-btn>
-    <div class="title">
-      {{ list.title }}
-    </div>
     <div class="cards">
       <todo-card v-for="(card, index) in list.cards" :key="index"
                  :card="card" :card-index="index" :parent-list-id="listId"/>
